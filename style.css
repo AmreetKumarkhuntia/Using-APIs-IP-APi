@@ -1,0 +1,65 @@
+body {
+    background-color: #008088;
+}
+header{
+    background-color: white;
+    height: 90px;
+    position: sticky;
+}
+img.logo1{
+    position: absolute;
+    left: 24px;
+    top: 13px;
+    width: 78px;
+    height: 78px;
+    z-index: 6;
+  }
+.content{
+    text-align: right;
+    position: relative;
+    right: 670px;
+    top:40px;
+    font: bold;
+    font-family:  ubuntu, sans-serif;
+    font-size: 50px;
+  }
+img.layer2{
+    offset: 1px;
+    position: absolute;
+    width: 324px;
+    }
+img.P{
+    position: absolute;
+    left: 45px;
+    top: 310px;
+    width: 200px;
+    offset: 1px;
+}
+.input{
+    text-align: left;
+    position: relative;
+    left: 850px;
+    font: bold;
+    font-family: ubuntu, sans-serif;
+    font-size: 50px;
+  }
+  #input_text{
+      border-radius: 5px;
+      width: 200px;
+      height: 25px;
+      position: relative;
+      bottom: 68px;
+      left: 220px;
+  }
+  #button{
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    bottom: 50px;
+    left: 730px;
+    background-color:#008088 ;
+    font: bold;
+    font-family: ubuntu, sans-serif;
+    font-size: 15px;
+  }
